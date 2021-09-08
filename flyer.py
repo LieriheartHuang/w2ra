@@ -17,3 +17,12 @@ for j in range(b):
 print('====='+c*'====='+'==%H%=='+c*'====='+'=====')
 print('   '+c*'     '+'|         |')
 print('   '+c*'     '+'+#########+')
+
+
+
+### 
+### Author:wenjunhuang
+### Class: CSc 110
+### Description: Describe your program with one
+###              or more sentences of text.
+###
