@@ -5,12 +5,12 @@ c=int(input("USS Arizona tower height: \n"))
 d = int(((a+b)/7))
 
 for i in range(d):
-    print('       '+a*' '+'              |'+b*'  '+'|')
+    print('       '+a*' '+'               |'+b*'  '+'|')
     
-print('       '+a*' '+'           |##$'+b*'  '+'$##|')
+print('       '+a*' '+'            |##$'+b*'  '+'$##|')
 
 for j in range(c):
-    print('       '+a*' '+'            ## '+b*'  '+' ##')
+    print('       '+a*' '+'             ## '+b*'  '+' ##')
 
 print('        '+a*' '+'           #..#'+b*'  '+'#..#')
 print('        '+a*' '+'    \----. #..#'+b*'..'+'#..# .----/')
