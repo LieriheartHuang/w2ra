@@ -1,4 +1,4 @@
-=int(input("USS Arizona outer width: \n"))
+a=int(input("USS Arizona outer width: \n"))
 b=int(input("USS Arizona inner width: \n"))
 c=int(input("USS Arizona tower height: \n"))
 
