@@ -1,7 +1,7 @@
 a=int(input("Wright flyer size: \n"))
 b=int( a/5 )+1
 c=int(a*1.2)
-print('   '+c*'     '+'      #')
+print('   '+c*'     '+'     #')
 print('   '+c*'     '+'#---------#')
 print('   '+c*'     '+'#---------#')
 print('==='+c*'====='+'=========='+c*'====='+'====')
