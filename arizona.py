@@ -2,11 +2,14 @@ a=int(input("USS Arizona outer width: \n"))
 b=int(input("USS Arizona inner width: \n"))
 c=int(input("USS Arizona tower height: \n"))
 
-d = int(round(((a+b)/7),0))
+d = int(((a+b)/7))
 
-print('      '+a*' '+'             |'+b*'  '+'|')
-print('      '+a*' '+'          |##$'+b*'  '+'$##|')
 for i in range(d):
+    print('      '+a*' '+'             |'+b*'  '+'|')
+    
+print('      '+a*' '+'          |##$'+b*'  '+'$##|')
+
+for j in range(c):
     print('      '+a*' '+'           ## '+b*'  '+' ##')
 
 print('      '+a*' '+'          #..#'+b*'  '+'#..#')
